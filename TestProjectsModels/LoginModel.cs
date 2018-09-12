@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace TestProjectsModels
 {
-   public class LoginModel
+    public class LoginModel
     {
         public string Email { get; set; }
         public string Password { get; set; }
-       
+        public string ConfirmPassword { get; set; }
     }
 }
